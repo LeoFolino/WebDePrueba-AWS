@@ -20,4 +20,4 @@ jobs:
 
     - name: Copy files via SSH
       run: |
-        scp -r ./index.html ./style.css ubuntu@<EC2_INSTANCE_PUBLIC_IP>:/var/www/html/
+        scp -r ./index.html ./style.css ubuntu@35.173.177.94:/var/www/html/
