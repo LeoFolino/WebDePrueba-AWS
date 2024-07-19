@@ -14,10 +14,13 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Setup SSH
+      id: ssh
       uses: webfactory/ssh-agent@v0.5.3
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
+    - name: Test SSH Connection
+      run: ssh -o StrictHostKeyChecking=no ubuntu@54.167.108.19 "echo 'SSH connection successful'"
+
     - name: Copy files via SSH
-      run: |
-        scp -o StrictHostKeyChecking=no -r ./index.html ./styles.css ubuntu@54.167.108.19:/var/www/html/
+      run: scp -o StrictHostKeyChecking=no -r ./index.html ./styles.css ubuntu@54.167.108.19:/var/www/html/
