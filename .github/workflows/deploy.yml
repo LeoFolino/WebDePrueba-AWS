@@ -23,4 +23,4 @@ jobs:
       run: ssh -o StrictHostKeyChecking=no ubuntu@54.167.108.19 "echo 'SSH connection successful'"
 
     - name: Copy files via SSH
-      run: scp -o StrictHostKeyChecking=no -r ./index.html ./styles.css ubuntu@54.167.108.19:/var/www/html/
+      run: scp -o StrictHostKeyChecking=no -r * ubuntu@54.167.108.19:/var/www/html/
