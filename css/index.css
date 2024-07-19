@@ -1,0 +1,100 @@
+html{
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(117, 0, 117);
+}
+body header nav {
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    display:inline-flex;
+    width: 100%;
+}
+
+body header nav img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+body header nav a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(68, 68, 68);
+    padding:20px 20px;
+    margin: 3px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium';
+    padding-bottom: 0;
+    display:block;
+}
+
+article a{
+    color: blue;
+}
+
+body main section h1{
+    font-family: 'Segoe UI';
+    color: white;
+    padding-left: 30px;
+}
+
+section article {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(81, 81, 151);
+    font-family: 'Lucida Sans';
+    margin: 10px;
+}
+
+section article img{
+    width: 500px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+#GamesView .Games{
+    display: inline-block;
+    width: 40%;
+    background-color: rgb(103, 17, 153);
+    padding: 2px;
+    border-style:outset;
+    border-width: 13px;
+    border-color: blueviolet;
+}
+
+#GamesView {
+    text-align: center;
+}
+
+.Games h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+#GamesView .Games img{
+    width: 100%;
+    align-items: center;
+}
+
+#GamesView .Games a{
+    margin: 45%;
+    border: solid;
+    border-color: black ;
+    background-color: black;
+    font-family: Helvetica;
+    color: blueviolet;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Prox {
+    background-color: rgba(187, 0, 187, 0.562);
+}

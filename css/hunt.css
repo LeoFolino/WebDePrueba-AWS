@@ -1,0 +1,136 @@
+html {
+    background-color: rgb(255, 230, 0);
+}
+body{
+    background-color: rgb(173, 156, 0);
+}
+body header nav {
+    padding: 15px;
+    background-color: rgb(255, 230, 0);
+    box-sizing: border-box;
+    display:inline-flex;
+    width: 100%;
+}
+
+body header nav img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+body header nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 242, 129);
+    padding:20px 20px;
+    margin: 3px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium';
+    padding-bottom: 0;
+    display:block;
+}
+
+.styleback{
+    background-color: rgb(255, 230, 0);
+}
+
+.starter {
+    background-color: rgb(173, 156, 0);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img{
+    width: 32%;
+}
+
+div section img{
+    width: 32%;
+    display: inline-flex;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+aside {
+    background-color: rgb(173, 156, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+aside p {
+    padding: 20px;
+}
+
+.styleback h3 {
+    width: 170px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 238, 0);
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    border: outset;
+}
+
+
+#RR {
+    border: initial;
+}
+
+#RR h2  {
+    padding-left: 250px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Reseña {
+    width: 900px;
+    border: solid;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.NegroPadre {
+    width: 100%;
+    height: 50%;
+    display: flex;    
+    background-color: rgb(255, 238, 0);
+}
+
+.username {
+    border: solid;
+    width: 70%;
+    padding-left: 15px;
+}
+
+.rating {
+    width: 30%;
+    border: solid;
+    padding-left: 15px;
+}
+
+.NegroHijo {
+    width: 100%;
+    display: flex;
+    background-color: rgb(199, 186, 0)
+}
+
+.review-text {
+    width: 70%;
+    border: solid;
+    padding-left: 15px;
+}
+
+.review-note {
+    width: 30%;
+    border: solid;
+    text-align: center;
+    padding-left: 15px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
