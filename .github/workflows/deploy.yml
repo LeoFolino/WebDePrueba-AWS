@@ -20,4 +20,4 @@ jobs:
 
     - name: Copy files via SSH
       run: |
-        scp -r ./index.html ./style.css ubuntu@35.173.177.94:/var/www/html/
+        scp -o StrictHostKeyChecking=no -r ./index.html ./style.css ubuntu@54.167.108.19:/var/www/html/
